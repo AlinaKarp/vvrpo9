@@ -1,3 +1,4 @@
+#include "utils.h"
 #include <iostream>
 
 using namespace std;
@@ -5,7 +6,9 @@ using namespace std;
 int main()
 {
     cout << "Laboratory work #9. GIT\n";
-    cout << "Variant #5. Ïðîòîêîë ðàáîòû â Èíòåðíåò\n";
-    cout << "Author: Àëèíà Êàðïóñåíêà \n";
+    cout << "Variant #5. ÃÃ°Ã®Ã²Ã®ÃªÃ®Ã« Ã°Ã Ã¡Ã®Ã²Ã» Ã¢ ÃˆÃ­Ã²Ã¥Ã°Ã­Ã¥Ã²\n";
+    cout << "Author: Ã€Ã«Ã¨Ã­Ã  ÃŠÃ Ã°Ã¯Ã³Ã±Ã¥Ã­ÃªÃ  \n";
+    std::string filename = "data.txt";
+    filterAndSortData(filename);
     return 0;
 }
